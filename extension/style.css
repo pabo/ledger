@@ -1,0 +1,17 @@
+#modal {
+    display: none;
+}
+
+.isLoading #modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+    position: fixed;
+    top: 50px;
+    left: 40vw;
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10px;
+    border: 3px solid black;
+}
